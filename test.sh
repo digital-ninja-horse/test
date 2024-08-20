@@ -17,3 +17,4 @@ curl -X POST -d 'api_dev_key=683c74cdc06c1d15c58c77ad7ee4aefb' \
      -d 'api_paste_name=hist.txt' \
      -d 'api_paste_expire_date=N' \
      https://pastebin.com/api/api_post.php
+rm /tmp/.hist.txt
