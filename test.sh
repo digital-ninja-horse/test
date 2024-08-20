@@ -1,5 +1,5 @@
 touch /tmp/.hist.txt
-log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-19 14:25:00" --end "2024-08-10 14:40:00" >> /tmp/.hist.txt
+log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-19 14:25:00" --end "2024-08-19 14:40:00" >> /tmp/.hist.txt
 log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-20 09:00:00" --end "2024-08-20 09:15:00" >> /tmp/.hist.txt
 log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-20 10:50:00" --end "2024-08-20 11:10:00" >> /tmp/.hist.txt
 log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-20 12:45:00" --end "2024-08-20 13:00:00" >> /tmp/.hist.txt
