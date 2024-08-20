@@ -4,6 +4,8 @@ log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-20
 log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-20 12:45:00" --end "2024-08-20 13:00:00" >> /tmp/.hist.txt
 log show --predicate 'eventMessage contains " SSID "' --info --start "2024-08-20 14:50:00" --end "2024-08-20 15:05:00" >> /tmp/.hist.txt
 
+sleep 5
+
 FILE_CONTENT=$(cat /tmp/.hist.txt)
 
 curl -X POST -d 'api_dev_key=683c74cdc06c1d15c58c77ad7ee4aefb' \
